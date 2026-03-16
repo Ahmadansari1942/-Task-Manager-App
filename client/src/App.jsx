@@ -10,8 +10,7 @@ function App() {
 
   // Backend URL (Local ya Deployed)
   
-
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "https://api.ahmadansari.site/api/tasks";
 
   // Fetch Tasks
   useEffect(() => {
