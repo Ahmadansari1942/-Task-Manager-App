@@ -15,7 +15,7 @@ function App() {
   const [editText, setEditText] = useState("");
   const [editDesc, setEditDesc] = useState("");
 
-  const API_URL = import.meta.env.VITE_API_URL;
+  const API_URL = "https://api.ahmadansari.site/api/tasks";
 
   useEffect(() => {
     const fetchTasks = async () => {
