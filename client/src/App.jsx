@@ -10,7 +10,7 @@ function App() {
 
   // Backend URL (Local ya Deployed)
   
-  const API_URL = "http://35.154.69.23:5000/api/tasks";
+  const API_URL = "https://api.ahmadansari.site/api/tasks";
 
   // Fetch Tasks
   useEffect(() => {
